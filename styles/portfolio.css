@@ -32,6 +32,25 @@ p {
   line-height: 30px;
 }
 
+.about-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+.about-section-content {
+  margin: 40px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-weight: 700px;
+  font-family: var(--default-font-family);
+}
+.about-section p {
+  color: #272142;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -59,6 +78,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
+  text-decoration: none;
 }
 
 .btn-branding-outline {
@@ -80,6 +100,10 @@ p {
   }
   h2 {
     font-size: 39px;
+  }
+  .about-section {
+    text-align: centre;
+    padding: 0;
   }
   .hero {
     padding: 80px 20px;
