@@ -32,23 +32,33 @@ p {
   line-height: 30px;
 }
 
-.about-section {
+.content-container {
   padding: 80px 20px;
   text-align: center;
 }
-.about-section-content {
+.content {
   margin: 40px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-weight: 700px;
   font-family: var(--default-font-family);
 }
-.about-section p {
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+.content p {
+  font-size: 14px;
+}
+.content-container p {
   color: #272142;
 }
 .hero {
@@ -101,7 +111,7 @@ p {
   h2 {
     font-size: 39px;
   }
-  .about-section {
+  .content-container {
     text-align: centre;
     padding: 0;
   }
