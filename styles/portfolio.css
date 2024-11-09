@@ -43,6 +43,10 @@ a {
   font-weight: bold;
 }
 
+ul {
+  list-style: none;
+}
+
 .content-container {
   padding: 80px 20px;
   text-align: center;
